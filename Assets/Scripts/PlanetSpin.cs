@@ -6,6 +6,7 @@ public class PlanetSpin : MonoBehaviour
     float _y;
     float _z;
 
+    //randomises x, y, and z float variables at start of runtime
     void Start()
     {
         _x = Random.Range(0, 5);
@@ -13,7 +14,7 @@ public class PlanetSpin : MonoBehaviour
         _z = Random.Range(0, 20);
     }
 
-    // Update is called once per frame
+    //rotates the planet at the different randomised variables set before
     void Update()
     {
         float time = Time.deltaTime;
