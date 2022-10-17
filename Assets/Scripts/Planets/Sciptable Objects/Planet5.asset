@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Planet5
   m_EditorClassIdentifier: 
   planetName: Planet 5
+  planetNum: 5
   isLocked: 1

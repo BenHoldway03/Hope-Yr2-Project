@@ -8,8 +8,9 @@ public class PlanetUnlock : MonoBehaviour
     [SerializeField] PlanetDetails planetDetails;
 
     [SerializeField] GameObject totalResourceTextParent;
-    [SerializeField] Button button;
-    int num;
+    [SerializeField] GameObject unlockButton;
+    [SerializeField] GameObject upgradeButton;
+
 
     public ResourcesToUnlock ResourcesNeeded
     {
@@ -19,42 +20,45 @@ public class PlanetUnlock : MonoBehaviour
 
     private void Awake()
     {
-        Button btn = button.GetComponent<Button>();
+        Button btn = unlockButton.GetComponent<Button>();
         planetDetails = GetComponent<PlanetDetails>();
 
         btn.onClick.AddListener(UnlockPlanet);
+
+        unlockButton.SetActive(true);
+        upgradeButton.SetActive(false);
+
+        UnlockPlanet();
     }
 
     private bool UnlockChecker()
     {
         for(int i = 0; i < totalResourceTextParent.transform.childCount; i++)
         {
-            TMP_Text text = totalResourceTextParent.transform.GetChild(0).GetComponent<TMP_Text>();
-            int resourceAmount = 0;
+            TMP_Text text = totalResourceTextParent.transform.GetChild(i).GetComponent<TMP_Text>();
+            float resourceNeeded = 0;
 
             switch (i)
             {
                 case 0:
-                    resourceAmount = (int)planetDetails.Resource.MaterialAmount;
-                    Debug.Log("Material");
+                    resourceNeeded = resourcesNeeded.MaterialNeeded;
                     break;
                 case 1:
-                    resourceAmount = (int)planetDetails.Resource.FoodAmount;
-                    Debug.Log("Food");
+                    resourceNeeded = resourcesNeeded.FoodNeeded;
                     break;
                 case 2:
-                    resourceAmount = (int)planetDetails.Resource.PopulationAmount;
-                    Debug.Log("Population");
+                    resourceNeeded = resourcesNeeded.PopulationNeeded;
                     break;
                 default:
                     break;
             }
 
+            int num;
             int.TryParse(text.text, out num);
 
-            if(num < resourceAmount)
+            if(num < resourceNeeded)
             {
-                return false;
+                return false;                
             }
         }
 
@@ -65,17 +69,12 @@ public class PlanetUnlock : MonoBehaviour
     {
         bool unlockPlanet = UnlockChecker();
 
-        if (planetDetails.PlanetCam.isActiveAndEnabled)
+        if (unlockPlanet && planetDetails.PlanetCam.isActiveAndEnabled)
         {
-            if (unlockPlanet)
-            {
-                Debug.Log("Unlock");
-                planetDetails.Planet.IsLocked = false;
-            }
-            else
-            {
-                Debug.Log("Not Unlocked");
-            }
+            planetDetails.Planet.IsLocked = false;
+
+            unlockButton.SetActive(false);
+            upgradeButton.SetActive(true);
         }
     }
 }

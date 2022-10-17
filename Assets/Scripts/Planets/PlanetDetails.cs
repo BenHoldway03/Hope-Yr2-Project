@@ -25,7 +25,7 @@ public class PlanetDetails : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(planet.PlanetName != "Crait")
+        if(planet.PlanetNum != 1)
         {
             planet.IsLocked = true;
         }

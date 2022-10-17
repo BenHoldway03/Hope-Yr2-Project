@@ -1916,6 +1916,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1473377182}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: unlockButton
+      value: 
+      objectReference: {fileID: 1473377180}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: upgradeButton
+      value: 
+      objectReference: {fileID: 1082063857}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: totalResourceTextParent
       value: 
       objectReference: {fileID: 2128045811}
@@ -2138,6 +2146,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1473377182}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: unlockButton
+      value: 
+      objectReference: {fileID: 1473377180}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: upgradeButton
+      value: 
+      objectReference: {fileID: 1082063857}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: totalResourceTextParent
       value: 
       objectReference: {fileID: 2128045811}
@@ -2189,7 +2205,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1082063858
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2934,6 +2950,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1473377182}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: unlockButton
+      value: 
+      objectReference: {fileID: 1473377180}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: upgradeButton
+      value: 
+      objectReference: {fileID: 1082063857}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: totalResourceTextParent
       value: 
       objectReference: {fileID: 2128045811}
@@ -3149,6 +3173,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1473377182}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: unlockButton
+      value: 
+      objectReference: {fileID: 1473377180}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: upgradeButton
+      value: 
+      objectReference: {fileID: 1082063857}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: totalResourceTextParent
       value: 
       objectReference: {fileID: 2128045811}
@@ -3289,6 +3321,14 @@ PrefabInstance:
       propertyPath: button
       value: 
       objectReference: {fileID: 1473377182}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: unlockButton
+      value: 
+      objectReference: {fileID: 1473377180}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: upgradeButton
+      value: 
+      objectReference: {fileID: 1082063857}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: totalResourceTextParent
       value: 
@@ -4232,6 +4272,18 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: unlockButton
+      value: 
+      objectReference: {fileID: 1473377180}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: upgradeButton
+      value: 
+      objectReference: {fileID: 1082063857}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: totalResourceTextParent
+      value: 
+      objectReference: {fileID: 2128045811}
     - target: {fileID: 5432045688027688213, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -4260,8 +4312,7 @@ PrefabInstance:
       propertyPath: planet
       value: 
       objectReference: {fileID: 11400000, guid: cfb217b924acb6142b0368cf39299fd2, type: 2}
-    m_RemovedComponents:
-    - {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
 --- !u!1001 &6543366128990016023
 PrefabInstance:

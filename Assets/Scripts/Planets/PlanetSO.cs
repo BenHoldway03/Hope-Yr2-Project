@@ -4,8 +4,12 @@ using UnityEngine;
 public class PlanetSO : ScriptableObject
 {
     [SerializeField] string planetName;
+    [SerializeField] int planetNum;
     [SerializeField] bool isLocked;
+
     public string PlanetName => planetName;
+
+    public int PlanetNum => planetNum;
 
     public bool IsLocked
     {

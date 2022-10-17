@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: Planet1
   m_EditorClassIdentifier: 
   planetName: Crait
-  materialAmount: 0
-  foodAmount: 0
-  populationNum: 0
+  planetNum: 1
+  isLocked: 0
