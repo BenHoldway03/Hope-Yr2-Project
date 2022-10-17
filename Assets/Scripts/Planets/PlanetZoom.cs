@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 public class PlanetZoom : MonoBehaviour
@@ -7,6 +6,11 @@ public class PlanetZoom : MonoBehaviour
     [SerializeField] Camera cam;
     [SerializeField] Camera mainCam;
     [SerializeField] bool isZoom;
+
+    private void Start()
+    {
+
+    }
 
     //runs if the mouse is hovering over the object when clicked
     private void OnMouseDown()
@@ -31,5 +35,4 @@ public class PlanetZoom : MonoBehaviour
         mainCam.enabled = false;
         cam.enabled = true;
     }
-
 }

@@ -84,6 +84,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1803769435984673211}
+  - component: {fileID: 1542554061566240512}
+  - component: {fileID: 8320718023543754449}
+  - component: {fileID: 524041123538761154}
+  - component: {fileID: 3407990467622941034}
+  - component: {fileID: 7792340735410569766}
+  - component: {fileID: 4781335641486643277}
   m_Layer: 0
   m_Name: Planet
   m_TagString: Untagged
@@ -108,6 +114,100 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1542554061566240512
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803769435984673208}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8320718023543754449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803769435984673208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb8d000bab8819c40a56953bdd72b564, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planet: {fileID: 0}
+  text: {fileID: 4071648165029970087, guid: 5900c8841d1b5254799a3dc10698d34f, type: 3}
+  planetCam: {fileID: 3945863821314304730}
+  resourse:
+    resourceAmounts: 3
+    materialAmount: 0
+    foodAmount: 0
+    populationAmount: 0
+--- !u!114 &524041123538761154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803769435984673208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8541d496aaae124198e37cdd47e19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planets: {fileID: 0}
+  resourceUI: {fileID: 0}
+  resourceTextParent: {fileID: 0}
+  totalResourceUI: {fileID: 0}
+  text: {fileID: 0}
+--- !u!114 &3407990467622941034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803769435984673208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5135a0de3ee95954f8bf4d393be00e3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 3945863821314304730}
+  mainCam: {fileID: 6543366128032087908, guid: 5968b87a14291a84cbd9e74cb7c9d8d6, type: 3}
+  isZoom: 0
+--- !u!114 &7792340735410569766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803769435984673208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79fea8ad36b71cc4d9cf2293b4688817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resourceIncrease:
+    materialIncrease: 0.5
+    foodIncrease: 0.5
+    populationIncrease: 0.5
+  planetDetails: {fileID: 0}
+--- !u!114 &4781335641486643277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803769435984673208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1baeb611cdfac114e95c5e02a6b78e33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3878918398969331246
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,9 +219,7 @@ GameObject:
   - component: {fileID: 5432045688027688213}
   - component: {fileID: 7184841855387243615}
   - component: {fileID: 5949278990644818123}
-  - component: {fileID: 2834208828258626772}
   - component: {fileID: 7099083253403380322}
-  - component: {fileID: 3484763718345921520}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -194,19 +292,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &2834208828258626772
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3878918398969331246}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1.73201
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7099083253403380322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,17 +304,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7068fdda4db5c224e95b75cc3c13a116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3484763718345921520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3878918398969331246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5135a0de3ee95954f8bf4d393be00e3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 3945863821314304730}
-  mainCam: {fileID: 6543366128032087908, guid: 5968b87a14291a84cbd9e74cb7c9d8d6, type: 3}
