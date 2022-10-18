@@ -602,6 +602,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 263206952}
   m_CullTransparentMesh: 1
+--- !u!1 &465338755 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1803769435984673208, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+  m_PrefabInstance: {fileID: 1803769435197327981}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &508427627
 GameObject:
   m_ObjectHideFlags: 0
@@ -1684,6 +1689,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1082063857}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: totalResourceUI
+      value: 
+      objectReference: {fileID: 1905958575}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: totalResourceTextParent
       value: 
       objectReference: {fileID: 2128045811}
@@ -1725,7 +1734,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8320718023543754449, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: Planet.planetName
-      value: Planet 6
+      value: Ephandar 91
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
@@ -1921,6 +1930,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1082063857}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: totalResourceUI
+      value: 
+      objectReference: {fileID: 1905958575}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: totalResourceTextParent
       value: 
       objectReference: {fileID: 2128045811}
@@ -1962,7 +1975,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8320718023543754449, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: Planet.planetName
-      value: Planet 5
+      value: 'Urima '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
@@ -2652,6 +2665,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1082063857}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: totalResourceUI
+      value: 
+      objectReference: {fileID: 1905958575}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: totalResourceTextParent
       value: 
       objectReference: {fileID: 2128045811}
@@ -2725,7 +2742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8320718023543754449, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: Planet.planetName
-      value: Planet 2
+      value: Cranis 62
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
@@ -2882,6 +2899,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1082063857}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: totalResourceUI
+      value: 
+      objectReference: {fileID: 1905958575}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: totalResourceTextParent
       value: 
       objectReference: {fileID: 2128045811}
@@ -2935,7 +2956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8320718023543754449, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: Planet.planetName
-      value: Planet 4
+      value: Aguntha
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
@@ -3055,6 +3076,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1082063857}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: totalResourceUI
+      value: 
+      objectReference: {fileID: 1905958575}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: totalResourceTextParent
       value: 
       objectReference: {fileID: 2128045811}
@@ -3108,7 +3133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8320718023543754449, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: Planet.planetName
-      value: Planet 3
+      value: Biaruta
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
@@ -3447,6 +3472,8 @@ MonoBehaviour:
   totalResourceUI: {fileID: 1905958575}
   totalResourceTextParent: {fileID: 2128045811}
   resourceList: []
+  unlockedPlanets:
+  - {fileID: 465338755}
 --- !u!1 &1928686709
 GameObject:
   m_ObjectHideFlags: 0
@@ -4018,6 +4045,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1082063857}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: totalResourceUI
+      value: 
+      objectReference: {fileID: 1905958575}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: totalResourceTextParent
       value: 
       objectReference: {fileID: 2128045811}
@@ -4067,7 +4098,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8320718023543754449, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: Planet.planetName
-      value: Planet 1
+      value: Ormia
       objectReference: {fileID: 0}
     - target: {fileID: 8320718023543754449, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: planet.planetName
