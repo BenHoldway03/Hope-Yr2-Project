@@ -89,6 +89,10 @@ public class PlanetUnlock : MonoBehaviour
             //adds planet to unlocked planets list in TotalResourceCalc script
             TotalResourceCalc totalResourceCalc = totalResourceUI.GetComponent<TotalResourceCalc>();
             totalResourceCalc.UnlockedPlanets.Add(gameObject);
+
+            planetDetails.Resource.MaterialAmount = 0;
+            planetDetails.Resource.FoodAmount = 0;
+            planetDetails.Resource.PopulationAmount = 0;
         }
     }
 

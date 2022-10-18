@@ -42,16 +42,14 @@ public class TotalResourceCalc : MonoBehaviour
                 }
 
                 //add all recourses together to make a total
-                if (!details.Planet.IsLocked)
-                {
-                    total += (int)resourceList[i];
-                }
+                total += (int)resourceList[i];
+                Debug.Log(total + details.Planet.PlanetName);
+
+                resourceList.Clear();
             }
 
             TMP_Text textMeshPro = totalResourceTextParent.transform.GetChild(i).GetComponent<TMP_Text>();
             textMeshPro.SetText(total.ToString());
         }
-
-        resourceList.Clear();
     }
 }
