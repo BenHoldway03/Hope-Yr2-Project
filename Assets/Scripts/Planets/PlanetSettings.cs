@@ -1,7 +1,7 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Planets", menuName = "ScriptableObjects/Planet", order = 0)]
-public class PlanetSO : ScriptableObject
+[System.Serializable]
+public class PlanetSettings
 {
     [SerializeField] string planetName;
     [SerializeField] int planetNum;

@@ -139,8 +139,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb8d000bab8819c40a56953bdd72b564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planet: {fileID: 0}
-  text: {fileID: 4071648165029970087, guid: 5900c8841d1b5254799a3dc10698d34f, type: 3}
+  Planet:
+    planetName: 
+    planetNum: 0
+    isLocked: 1
+  text: {fileID: 0}
   planetCam: {fileID: 3945863821314304730}
   resourse:
     resourceAmounts: 3
@@ -195,7 +198,6 @@ MonoBehaviour:
     materialIncrease: 0.5
     foodIncrease: 0.5
     populationIncrease: 0.5
-  planetDetails: {fileID: 0}
 --- !u!114 &4781335641486643277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,6 +210,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1baeb611cdfac114e95c5e02a6b78e33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resourcesNeeded:
+    materialNeeded: 0
+    foodNeeded: 0
+    populationNeeded: 0
+  totalResourceTextParent: {fileID: 0}
+  unlockButton: {fileID: 0}
+  upgradeButton: {fileID: 0}
 --- !u!1 &3878918398969331246
 GameObject:
   m_ObjectHideFlags: 0

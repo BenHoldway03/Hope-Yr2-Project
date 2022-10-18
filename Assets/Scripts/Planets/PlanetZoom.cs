@@ -7,6 +7,8 @@ public class PlanetZoom : MonoBehaviour
     [SerializeField] Camera mainCam;
     [SerializeField] bool isZoom;
 
+    public Action onPlanetZoom;
+
     private void Start()
     {
 
@@ -20,6 +22,7 @@ public class PlanetZoom : MonoBehaviour
         {
             ZoomIn();
             isZoom = true;
+            onPlanetZoom?.Invoke();
         }
         else
         {

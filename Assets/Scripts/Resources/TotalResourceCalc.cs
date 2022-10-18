@@ -10,6 +10,13 @@ public class TotalResourceCalc : MonoBehaviour
     [SerializeField] GameObject totalResourceTextParent;
 
     [SerializeField] List<float> resourceList = new List<float>();
+    [SerializeField] List<GameObject> unlockedPlanets = new List<GameObject>();
+
+    public List<GameObject> UnlockedPlanets
+    {
+        get { return unlockedPlanets; }
+        set { unlockedPlanets = value; }
+    }
 
     // Update is called once per frame
     void Update()
@@ -23,9 +30,9 @@ public class TotalResourceCalc : MonoBehaviour
         {
             float total = 0;
 
-            for (int j = 0; j < planets.transform.childCount; j++)
+            for (int j = 0; j < unlockedPlanets.Count; j++)
             {
-                PlanetDetails details = planets.transform.GetChild(j).GetComponent<PlanetDetails>();
+                PlanetDetails details = unlockedPlanets[j].GetComponent<PlanetDetails>();
 
                 if (resourceList.Count == 0)
                 {
@@ -42,7 +49,7 @@ public class TotalResourceCalc : MonoBehaviour
             }
 
             TMP_Text textMeshPro = totalResourceTextParent.transform.GetChild(i).GetComponent<TMP_Text>();
-            textMeshPro.SetText(total.ToString("F0"));
+            textMeshPro.SetText(total.ToString());
         }
 
         resourceList.Clear();

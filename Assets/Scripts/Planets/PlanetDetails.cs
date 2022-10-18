@@ -1,17 +1,20 @@
 using UnityEngine;
 using TMPro;
 using System;
-using System.Runtime.CompilerServices;
 
 public class PlanetDetails : MonoBehaviour
 {
-    [SerializeField] PlanetSO planet;
+    public PlanetSettings Planet;
     [SerializeField] TMP_Text text;
     [SerializeField] Camera planetCam;
     [SerializeField] Resources resourse;
     ResourceUpdater resourceUpdater;
 
-    public PlanetSO Planet => planet;
+    /*public PlanetSettings Planet
+    {
+        get { return planet; }
+        set { planet = value; }
+    }*/
     public Camera PlanetCam => planetCam;
     public Resources Resource
     {
@@ -25,14 +28,14 @@ public class PlanetDetails : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(planet.PlanetNum != 1)
+        /*if(planet.PlanetNum != 1)
         {
-            planet.IsLocked = true;
+            planet.SetLocked(true);
         }
         else
         {
-            planet.IsLocked = false;
-        }
+            planet.SetLocked(false);
+        }*/
 
         resourceUpdater = GetComponent<ResourceUpdater>();
         resourceUpdater.onSetPlayerName += SetPlanetName;
