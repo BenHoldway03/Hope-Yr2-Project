@@ -63,6 +63,7 @@ public class PlanetDetails : MonoBehaviour
         text.SetText("");
     }
 
+    //Shows the planet name wherever text is used
     void SetPlanetName()
     {
         text.SetText(Planet.PlanetName);

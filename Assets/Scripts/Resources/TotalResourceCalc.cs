@@ -43,7 +43,6 @@ public class TotalResourceCalc : MonoBehaviour
 
                 //add all recourses together to make a total
                 total += (int)resourceList[i];
-                Debug.Log(total + details.Planet.PlanetName);
 
                 resourceList.Clear();
             }
