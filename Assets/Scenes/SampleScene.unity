@@ -1696,6 +1696,18 @@ PrefabInstance:
       propertyPath: totalResourceTextParent
       value: 
       objectReference: {fileID: 2128045811}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourcesNeeded.foodNeeded
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourcesNeeded.materialNeeded
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourcesNeeded.populationNeeded
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 5432045688027688213, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: m_LocalScale.x
       value: 4
@@ -1715,6 +1727,18 @@ PrefabInstance:
     - target: {fileID: 5432045688027688213, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792340735410569766, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourceIncrease.foodIncrease
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792340735410569766, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourceIncrease.materialIncrease
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792340735410569766, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourceIncrease.populationIncrease
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8320718023543754449, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: text
@@ -1937,6 +1961,18 @@ PrefabInstance:
       propertyPath: totalResourceTextParent
       value: 
       objectReference: {fileID: 2128045811}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourcesNeeded.foodNeeded
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourcesNeeded.materialNeeded
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourcesNeeded.populationNeeded
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5432045688027688213, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -1956,6 +1992,18 @@ PrefabInstance:
     - target: {fileID: 5432045688027688213, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792340735410569766, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourceIncrease.foodIncrease
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792340735410569766, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourceIncrease.materialIncrease
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792340735410569766, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourceIncrease.populationIncrease
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 8320718023543754449, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: text
@@ -2678,7 +2726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: resourcesNeeded.foodNeeded
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: resourcesNeeded.materialAmount
@@ -2694,7 +2742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: resourcesNeeded.populationNeeded
-      value: 10
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5432045688027688213, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: m_LocalScale.x
@@ -2724,6 +2772,14 @@ PrefabInstance:
       propertyPath: planets
       value: 
       objectReference: {fileID: 1529449290}
+    - target: {fileID: 7792340735410569766, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourceIncrease.foodIncrease
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792340735410569766, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourceIncrease.populationIncrease
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 8320718023543754449, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: text
       value: 
@@ -2908,15 +2964,15 @@ PrefabInstance:
       objectReference: {fileID: 2128045811}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: resourcesNeeded.foodNeeded
-      value: 2
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: resourcesNeeded.materialNeeded
-      value: 2
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: resourcesNeeded.populationNeeded
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5432045688027688213, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: m_LocalScale.x
@@ -2937,6 +2993,14 @@ PrefabInstance:
     - target: {fileID: 5432045688027688213, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792340735410569766, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourceIncrease.foodIncrease
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792340735410569766, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourceIncrease.populationIncrease
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 8320718023543754449, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: text
@@ -3085,15 +3149,15 @@ PrefabInstance:
       objectReference: {fileID: 2128045811}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: resourcesNeeded.foodNeeded
-      value: 2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: resourcesNeeded.materialNeeded
-      value: 2
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4781335641486643277, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: resourcesNeeded.populationNeeded
-      value: 2
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5432045688027688213, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: m_LocalScale.x
@@ -3114,6 +3178,18 @@ PrefabInstance:
     - target: {fileID: 5432045688027688213, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792340735410569766, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourceIncrease.foodIncrease
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792340735410569766, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourceIncrease.materialIncrease
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792340735410569766, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourceIncrease.populationIncrease
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8320718023543754449, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: text
@@ -3869,7 +3945,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -190.9, y: -49.99997}
+  m_AnchoredPosition: {x: -394.7, y: -49.99997}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2128045813
@@ -3890,7 +3966,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 3
-  m_Spacing: -300
+  m_Spacing: -97.6
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -4072,6 +4148,14 @@ PrefabInstance:
       propertyPath: planets
       value: 
       objectReference: {fileID: 1529449290}
+    - target: {fileID: 7792340735410569766, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourceIncrease.foodIncrease
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7792340735410569766, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
+      propertyPath: resourceIncrease.populationIncrease
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 8320718023543754449, guid: 92abf5fb9230fd64b8e0f518cdd62580, type: 3}
       propertyPath: text
       value: 
