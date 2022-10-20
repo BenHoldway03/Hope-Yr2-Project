@@ -1,8 +1,11 @@
+using System;
 using UnityEngine;
 
-[System.Serializable]
+[Serializable]
 public class PlanetSettings
 {
+    //General Settings set for the Planets.
+
     [SerializeField] string planetName;
     [SerializeField] int planetNum;
     [SerializeField] bool isLocked;

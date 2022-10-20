@@ -4,6 +4,7 @@ using UnityEngine;
 [Serializable]
 public class ResourcesToUnlock 
 {
+    //Holds the amount of resources need to unlock a locked Planet.
 
     [SerializeField] float materialNeeded;
     [SerializeField] float foodNeeded;

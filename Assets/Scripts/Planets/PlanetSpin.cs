@@ -2,11 +2,13 @@ using UnityEngine;
 
 public class PlanetSpin : MonoBehaviour
 {
+    //Spins the Planets at a random axis and speed.
+
     float _x;
     float _y;
     float _z;
 
-    //randomises x, y, and z float variables at start of runtime
+    //Randomises x, y, and z float variables at start of runtime
     void Start()
     {
         _x = Random.Range(0, 5);
@@ -14,7 +16,7 @@ public class PlanetSpin : MonoBehaviour
         _z = Random.Range(0, 20);
     }
 
-    //rotates the planet at the different randomised variables set before
+    //Rotates the planet at the different randomised variables set before
     void Update()
     {
         float time = Time.deltaTime;

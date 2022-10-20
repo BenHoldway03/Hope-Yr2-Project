@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 3407990467622941034}
   - component: {fileID: 7792340735410569766}
   - component: {fileID: 4781335641486643277}
+  - component: {fileID: 4726076306830746408}
   m_Layer: 0
   m_Name: Planet
   m_TagString: Untagged
@@ -143,6 +144,10 @@ MonoBehaviour:
     planetName: 
     planetNum: 0
     isLocked: 1
+  planetUpgrades:
+    tier1: 0
+    tier2: 0
+    tier3: 0
   text: {fileID: 0}
   planetCam: {fileID: 3945863821314304730}
   resourse:
@@ -215,8 +220,21 @@ MonoBehaviour:
     foodNeeded: 0
     populationNeeded: 0
   totalResourceTextParent: {fileID: 0}
+  totalResourceUI: {fileID: 0}
   unlockButton: {fileID: 0}
-  upgradeButton: {fileID: 0}
+--- !u!114 &4726076306830746408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803769435984673208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff1f8a223d4de0247907cd289ff2a65e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resourceTextParent: {fileID: 0}
 --- !u!1 &3878918398969331246
 GameObject:
   m_ObjectHideFlags: 0

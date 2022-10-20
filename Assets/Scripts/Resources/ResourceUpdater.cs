@@ -4,6 +4,8 @@ using System;
 
 public class ResourceUpdater : MonoBehaviour
 {
+    //Updates the resources seen on the screen.
+
     [SerializeField] GameObject planets;
 
     [SerializeField] GameObject resourceUI;
@@ -27,6 +29,7 @@ public class ResourceUpdater : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Checks to make sure the Planet is unlocked and the PlanetCam is active before updating the resources.
         if (!planetDetails.Planet.IsLocked && planetDetails.PlanetCam.isActiveAndEnabled)
         {
             PlanetUpdater();
@@ -35,6 +38,7 @@ public class ResourceUpdater : MonoBehaviour
 
     public void PlanetUpdater()
     {
+        //Runs through all of the resource texts and sets the whole number of the resource amount to the Text Mesh Pro text.
         for (int i = 0; i < planetDetails.Resource.ResourceAmounts; i++)
         {
             TMP_Text textMeshPro = resourceTextParent.transform.GetChild(i).GetComponent<TMP_Text>();
@@ -57,6 +61,7 @@ public class ResourceUpdater : MonoBehaviour
 
     public void PlanetEnter(string name)
     {
+        //Hides the total resource UI and shows the Planet specific resource UI, and also sets the name of the Planet as the text.
         totalResourceUI.SetActive(false);
         resourceUI.SetActive(true);
 
@@ -65,9 +70,11 @@ public class ResourceUpdater : MonoBehaviour
 
     public void PlanetExit()
     {
+        //Shows the total resource UI and hides the Planet specific resource UI
         totalResourceUI.SetActive(true);
         resourceUI.SetActive(false);
 
+        //Sets all of the resource texts to 0 so that if a Planet that is still locked is viewed, the text shows 0.
         for (int i = 0; i < planetDetails.Resource.ResourceAmounts; i++)
         {
             TMP_Text textMeshPro = resourceTextParent.transform.GetChild(i).GetComponent<TMP_Text>();

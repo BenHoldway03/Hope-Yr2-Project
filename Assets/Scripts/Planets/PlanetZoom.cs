@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class PlanetZoom : MonoBehaviour
 {
+    //Focuses on the Planet selected and zooms into it (changes to the PlanetCam).
+
     [SerializeField] Camera cam;
     [SerializeField] Camera mainCam;
     [SerializeField] bool isZoom;
@@ -14,10 +16,10 @@ public class PlanetZoom : MonoBehaviour
 
     }
 
-    //runs if the mouse is hovering over the object when clicked
+    //Runs if the mouse is hovering over the object when clicked
     private void OnMouseDown()
     {
-        //runs ZoomIn if not zoomed in, or zooms out if already zoomed in
+        //Runs ZoomIn if not zoomed in, or zooms out if already zoomed in
         if (!isZoom)
         {
             ZoomIn();

@@ -1,10 +1,11 @@
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
 public class Resources
 {
+    //Holds the amounts of resources on each Planet.
+
     [SerializeField] int resourceAmounts = 3;
 
     [SerializeField] float materialAmount;

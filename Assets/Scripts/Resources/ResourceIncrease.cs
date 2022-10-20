@@ -4,6 +4,8 @@ using UnityEngine;
 [Serializable]
 public class ResourceIncrease
 {
+    //Holds all the increase amounts of the resources on each Planet.
+
     [SerializeField] float materialIncrease;
     [SerializeField] float foodIncrease;
     [SerializeField] float populationIncrease;
