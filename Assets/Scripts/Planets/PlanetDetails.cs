@@ -6,9 +6,8 @@ public class PlanetDetails : MonoBehaviour
 {
     //Holds the specific details of each planet and any Serializable Classes that are linked to the Planets.
 
-    //both of these script reference variables are set to public as the error of "Unsupported Type" came up when I tried to use a setter and getter to access them.
+    //This script reference variables are set to public as the error of "Unsupported Type" came up when I tried to use a setter and getter to access them.
     public PlanetSettings Planet;
-    public PlanetUpgrades planetUpgrades;
 
     [SerializeField] TMP_Text text;
     [SerializeField] Camera planetCam;
